@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Random;
 
-public class SA6_Etapa1 {
+public class BubbleSort {
 
 	static void ordemCres_Decres(int x[], boolean order) {
 		int a=0;
@@ -42,7 +42,7 @@ public class SA6_Etapa1 {
 		for(int i=0; i<num.length; i++) {
 			num[i]= rnd.nextInt(9);
 		}
-		System.out.println("Números aleatórios desorganizados: ");
+		System.out.println("NÃºmeros aleatÃ³rios desorganizados: ");
 		msgSaida(num);
 		ordemCres_Decres(num, true);
 		System.out.println("Ordem Crescente: (BubbleSort) ");		
