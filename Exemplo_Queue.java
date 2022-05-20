@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Scanner;
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-public class SA5_Etapa2 {
+public class Exemplo_Queue {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class SA5_Etapa2 {
 		System.out.println("Bem vindo!");
 		while (true) {
 			System.out.println("===========================================================");
-			System.out.println("Por favor, digite o número correspondente a sua função:");
+			System.out.println("Por favor, digite o nÃºmero correspondente a sua funÃ§Ã£o:");
 			System.out.println("===========================================================");
 			System.out.println("[1] - Para adicionar a fila");
 			System.out.println("[2] - Para remover da fila");
@@ -51,7 +51,7 @@ public class SA5_Etapa2 {
 		if (!x.isEmpty()) {
 			System.out.println(x.poll() + " foi removido da fila com sucesso!");
 		} else {
-			System.out.println("Impossível remover elementos de uma fila vazia.");
+			System.out.println("ImpossÃ­vel remover elementos de uma fila vazia.");
 		}
 	}
 	
@@ -61,7 +61,7 @@ public class SA5_Etapa2 {
 			x.clear();
 			System.out.println("A fila foi esvaziada com sucesso!");
 		} else {
-			System.out.println("Impossível esvaziar elementos de uma fila vazia.");
+			System.out.println("ImpossÃ­vel esvaziar elementos de uma fila vazia.");
 		}
 	}
 	
@@ -72,14 +72,14 @@ public class SA5_Etapa2 {
 				System.out.println(y);
 			}
 		} else {
-			System.out.println("Impossível listar elementos de uma fila vazia.");
+			System.out.println("ImpossÃ­vel listar elementos de uma fila vazia.");
 	    }
 	}
 	
 	static void vazia(Queue <String> x) {
 		System.out.println("===========================================================");
 		if (!x.isEmpty()) {
-			System.out.println("A fila não esta vazia!");
+			System.out.println("A fila nÃ£o esta vazia!");
 		} else {
 			System.out.println("A fila esta vazia!");
 		}
